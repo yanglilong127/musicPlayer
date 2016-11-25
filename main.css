@@ -1,0 +1,31 @@
+*{ margin:0 auto; padding:0}
+body{ background:rgba(0,0,0,0.8)}
+ul,li{ list-style:none}
+/*最外面盒子*/
+#box{ width:600px; height:450px; }
+/*左边的盒子start*/
+#box_l{ width:250px; height:450px; background:#CC99FF; float:left}
+#box_l .music_name{ width:250px; height:60px; background:url(images/bg1.jpg); text-align:center; line-height:60px}
+#box_l .music_pic{ width:250px; height:290px; position:relative}
+#box_l .music_pic #geci{width:250px; height:30px; background:rgba(0,0,0,0.5); position:absolute; left:0px; bottom:0px; 
+					text-align:center; font-size:13px; line-height:30px; color:#FF0000}
+#box_l .music_ctrl{ width:250px; height:100px; background:url(images/bg2.jpg)}
+#box_l .music_ctrl .jindutiao{ width:250px; height:50px; background:#333333; position:relative}
+#box_l .music_ctrl .jindutiao p{ width:200px; height:10px; background:#FFFFFF; position:absolute; left:25px; top:20px}
+#box_l .music_ctrl .jindutiao span{ width:0px; height:10px; background:#00F; position:absolute; left:25px; top:20px}
+#box_l .music_ctrl .bofang{width:250px; height:50px; position:relative}
+#box_l .music_ctrl .bofang ul{ height:26px; position:absolute; top:12px; left:55px}
+#box_l .music_ctrl .bofang ul li{ width:26px; height:26px; background:#CC66FF; float:left; margin:0 10px;
+								 background:url(images/sm_icon.png); cursor:pointer}
+#box_l .music_ctrl .bofang ul li.li1{ background-position:-47px 0}
+#box_l .music_ctrl .bofang ul li.li2{ background-position:-98px -1px}
+#box_l .music_ctrl .bofang ul li.li3{ background-position:-124px 0}
+/*左边的盒子end*/
+/*右边的盒子start*/
+#box_r{ width:350px; height:450px; background:#CC0; float:left}
+#box_r ul li{ height:30px; line-height:30px;  text-indent:30px;}
+#box_r ul li a{ text-decoration:none; color:#666; display:block; height:28px; background:url(images/play.png) no-repeat;
+				 background-position:12px 8px}
+#box_r ul li a.on{ border-bottom:#FF0000 2px solid; background:url(images/pause.png) no-repeat; background-position:11px 7px}
+/*右边的盒子end*/
+#music_geci{display:none}
